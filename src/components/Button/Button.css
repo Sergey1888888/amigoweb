@@ -1,0 +1,31 @@
+.button {
+    width: 100%;
+    height: 56px;
+    border: none;
+    background: #0880AE;
+    box-shadow: 0 2px 4px rgba(44, 39, 56, 0.08), 0 4px 8px rgba(44, 39, 56, 0.08);
+    border-radius: 6px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #EBF4F8;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+.button:not(:disabled):hover {
+    box-shadow: 0 12px 24px rgba(44, 39, 56, 0.08), 0 24px 48px rgba(44, 39, 56, 0.16);
+}
+
+.button:active {
+    border: 2px solid rgba(44, 39, 56, 0.86);
+}
+
+.button:disabled {
+    background: #DBE2EA;
+    box-shadow: 0 4px 8px rgba(44, 39, 56, 0.08);
+    color: #2C2738;
+    opacity: 0.5;
+}
