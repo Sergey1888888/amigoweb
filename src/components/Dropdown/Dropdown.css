@@ -39,6 +39,10 @@
     color: #7C9CBF;
 }
 
+.dropdown_header__title.selected {
+    color: #2C2738;
+}
+
 .dropdown_header__button {
     min-width: 30px;
     height: 30px;
@@ -64,6 +68,7 @@
 
 .dropdown_item {
     background-color: #FFFFFF;
+    color: #756F86;
     border: none;
     width: 100%;
     height: 44px;

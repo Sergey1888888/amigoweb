@@ -23,7 +23,7 @@ const Dropdown: React.FC<DropdownProps> = ({title, label, items, onChange, value
         <div className='dropdown_wrapper'>
             <div className='dropdown_label'>{label}</div>
             <div onClick={() => toggleOpened()} className={`dropdown_header ${opened ? 'opened' : ''}`} tabIndex={0}>
-                <div className='dropdown_header__title'>{typeof value === 'number' ? items[value].name : title}</div>
+                <div className='dropdown_header__title selected'>{typeof value === 'number' ? items[value].name : title}</div>
                 <div className='dropdown_header__button'>
                     <ChevronBottomIcon/>
                 </div>
