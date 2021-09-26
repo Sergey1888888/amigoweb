@@ -74,6 +74,10 @@
     padding-bottom: 11px;
 }
 
+.dropdown_item:hover {
+    background-color: #EBF4F8;
+}
+
 .dropdown_item.active {
     background: #EBF4F8;
 }
